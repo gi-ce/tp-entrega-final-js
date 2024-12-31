@@ -1,0 +1,335 @@
+.logo {
+    display: flex;
+    border-width: 15px;
+    height: 200px;
+    margin: auto;
+    background-color: black;
+    border-radius: 20px;
+}
+
+body {
+    background-image: url(/Enlaces/assets/img/fondo.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    font-family: "Metal Mania", system-ui;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+h2 {
+    font-family: "Metal Mania", system-ui;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.navContainer {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    bottom: 0%;
+    right: 0%;
+    top: 0%;
+    background-color: grey;
+    border: 2px solid black;
+}
+
+.ulNavegador {
+    list-style-type: none;
+    width: auto;
+}
+
+.liNavegador {
+    display: inline-flex;
+}
+
+.liNavegador:hover {
+    transform: scale(1);
+    transition: 100ms;
+    filter: drop-shadow(2px 6px 12px red) invert(10%);
+}
+
+.liNavegador a {
+    font-size: 200%;
+    margin: 2px;
+}
+
+.aNavegador {
+    text-decoration: none;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(150, 82, 0);
+    border: 2px solid rgb(150, 0, 0);
+    padding: 0.5rem;
+    
+}
+.liNavegador1{
+    
+    border-radius: 100%;
+    
+    background-color: rgb(235, 25, 00);
+    color: black;
+    border: 4px solid black;
+    border-radius: 50%;
+    display: flex;
+    display: inline-block;
+    justify-content: space-between;
+        a{
+        border: none;
+        padding: 0.5rem;
+        position: relative;
+        }
+
+        a:hover {
+        border-radius: 50%;
+            .cantProduct {
+            color: rgb(235, 25, 00);
+            background-color: black;
+            border: 1px solid rgb(235, 25, 00);
+            }
+        }
+        
+    .cantProduct{
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 14px;
+    color: black;
+    background-color: rgb(235, 25, 00);
+    padding: 0.40rem;
+    border:1px solid black;
+    border-radius: 50%;
+    }
+}    
+
+.liNavegador1:hover {
+    transform: scale(1);
+    transition: 100ms;
+    filter: drop-shadow(2px 6px 12px red) invert(10%);
+}
+
+.table1 {
+    background-color: rgba(235, 24, 0, 0.507);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding: 5rem;
+    display: flex;
+    display: inline-flex;
+    text-align: center;
+    justify-content: space-evenly;
+
+    p{
+    font-size: 25px;  
+    font-weight: bold; 
+    }
+}
+
+.banner {
+    display: flex;
+    margin: auto;
+    width: 85%;
+    border: 2px solid black;
+}
+
+.sec {
+    padding: 2em;
+}
+
+.container{
+    margin: 1.5em auto 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 70%;
+}
+
+.card {
+    width: 15em;
+    height: 20em;
+    margin: 0.5em;
+    background-color: rgb(1, 1, 1);
+    border: 2px solid rgb(150, 0, 0);
+    padding: 5px;
+    border-radius: 20px;
+    position: relative;
+    color: rgb(150, 82, 0);
+    text-align: center;
+    align-items: center;
+    
+    h4 {
+        color: rgb(150, 82, 0);
+        text-decoration: none;  
+    }
+    p {
+        color: rgb(150, 82, 0); 
+        text-decoration: none;
+    }
+}
+
+.card p {
+    font-size: 150%;
+    margin: 15px
+}
+
+.card h4 {
+    font-size: 200%;
+    margin: 15px
+}
+
+.imgProducto {
+    width: 40%;
+}
+
+.button {
+    background-color: rgb(150, 82, 00);
+    color: black;
+    font-weight: bold;
+    border: 1px solid rgb(150, 0, 0);
+    border-radius: 20px;
+    padding: 1rem;
+    font-size: large;
+}
+
+.button:hover {
+    transform: scale(1);
+    transition: 100ms;
+    filter: drop-shadow(1px 8px 10px red) invert(5%);
+}
+
+.contenForm {
+    display: flex;
+    width: 100%;
+    height: 450px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(150, 82, 0);
+    border: 2px solid rgb(150, 0, 0);
+}
+
+.contenF {
+    background-color: dimgray;
+    width: 100%;
+    height: 100%;
+    color: rgb(150, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.tableProduct {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 40rem;
+
+    .table {
+        thead {
+            background-color: rgb(235, 25, 00);
+            color: black;
+
+            tr th {
+            border-radius: 10px;
+            padding: 0.5rem;
+            border: 1px solid black;
+            }
+        }
+
+        tbody {
+            background-color: rgb(150, 82, 00);
+            color: black;
+            font-weight: 500;
+
+        tr td {
+            border: 1px solid black;
+            border-radius: 10px;
+            padding: 0.5rem;
+            }
+        }
+    }
+}
+
+.poc {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 2%;
+    height: 300px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-self: auto;
+}
+
+.poc2 {
+    align-items: center;
+    flex: 33%;
+    height: 345px;
+    border-radius: 20px;
+    border: 2px solid rgb(150, 0, 0);
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.cont2 h3 {
+    font-size: 150%;
+    border-radius: 20px;
+}
+
+.cont2 p {
+    font-size: 120%;
+    border-radius: 20px;
+}
+
+p {
+    margin: 1px;
+}
+
+.contact {
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    width: 33%;
+    display: flex;
+    display: inline-flex;
+    text-align: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.enlaceInicio {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    text-decoration: none;
+    background-color: rgb(235, 25, 00);
+    color: black;
+    font-weight: bold;
+    border: 4px solid black;
+    border-radius: 40px;
+    padding: 0.3rem;
+    margin: 1rem;
+    box-shadow: 1px 5px 7px rgb(235, 25, 00);
+}
+
+.datosCierre {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
